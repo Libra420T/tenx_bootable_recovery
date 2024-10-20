@@ -968,8 +968,6 @@ void ScreenRecoveryUI::BattMonitorThreadLoop() {
 
   bool is_first_call = true;
 
-  bool is_first_call = true;
-
   while (!batt_monitor_thread_stopped_) {
     bool redraw = false;
     {
